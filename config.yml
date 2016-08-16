@@ -1,0 +1,27 @@
+# 3 = Model B+
+boardRevision: 3
+useWiringPiLayout: true
+disabledPins: []
+actors:
+    -   name: "bed_light"
+        friendlyName: "Bed Light"
+        pin: 1
+        direction: "out"
+    -   name: "desk_light"
+        friendlyName: "Desk Light"
+        pin: 0
+        direction: "out"
+    -   name: "desk_led"
+        friendlyName: "Desk LED"
+        pin: 2
+        direction: "out"
+    -   name: "desk_btn1"
+        friendlyName: "Desk Push Button 1"
+        pin: 3
+        direction: "in"
+    -   name: "desk_btn2"
+        friendlyName: "Desk Push Button 2"
+        pin: 4
+        direction: "in"
+
+
